@@ -1,0 +1,2 @@
+# Global cleartext feature
+persist.sys.global.cleartext           u:object_r:system_exported_cleartext_prop:s0 exact int

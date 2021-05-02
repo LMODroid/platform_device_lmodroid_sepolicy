@@ -8,3 +8,6 @@ allow system_server pocket_service:service_manager { add find };
 
 # Parallel Space
 add_service(system_server, parallel_space_service);
+
+# Global cleartext feature
+allow system_server system_exported_cleartext_prop:property_service set;
