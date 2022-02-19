@@ -1,0 +1,2 @@
+# App lock
+app_lock                                      u:object_r:app_lock_service:s0
