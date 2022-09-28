@@ -5,3 +5,6 @@ add_service(system_server, app_lock_service);
 allow system_server pocket_judge_sysfs:dir search;
 allow system_server pocket_judge_sysfs:file rw_file_perms;
 allow system_server pocket_service:service_manager { add find };
+
+# Parallel Space
+add_service(system_server, parallel_space_service);

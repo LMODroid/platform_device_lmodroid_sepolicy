@@ -3,3 +3,6 @@ app_lock                                      u:object_r:app_lock_service:s0
 
 # Pocket Judge
 pocket                                        u:object_r:pocket_service:s0
+
+# Parallel Space
+parallel                                      u:object_r:parallel_space_service:s0

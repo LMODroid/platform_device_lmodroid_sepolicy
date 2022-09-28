@@ -1,0 +1,2 @@
+# Allow storage access to files app
+allow platform_app mnt_pass_through_file:dir { getattr search };
