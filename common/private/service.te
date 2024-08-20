@@ -9,3 +9,6 @@ type parallel_space_service, system_api_service, system_server_service, service_
 
 # FaceUnlock
 type faceunlock_service, system_api_service, system_server_service, service_manager_type;
+
+# Freeform
+type lmofreeform_service, system_api_service, system_server_service, service_manager_type;
