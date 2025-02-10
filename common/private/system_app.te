@@ -1,2 +1,5 @@
 # Allow access to the USB trust HAL
 hal_client_domain(system_app, hal_lineage_trust)
+
+# Allow Settings to read custom version
+get_prop(system_app, lmo_version_prop)

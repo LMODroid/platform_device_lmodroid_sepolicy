@@ -1,0 +1,2 @@
+get_prop(updater_app, lmo_version_prop)
+get_prop(updater_app, lmo_updater_prop)

@@ -1,2 +1,9 @@
 # Global cleartext feature
 persist.sys.global.cleartext           u:object_r:system_exported_cleartext_prop:s0 exact int
+
+# Custom version
+ro.lmodroid.version                    u:object_r:lmo_version_prop:s0
+ro.lmodroid.build_type                 u:object_r:lmo_version_prop:s0
+ro.lmodroid.build_date                 u:object_r:lmo_version_prop:s0
+ro.lmodroid.build_name                 u:object_r:lmo_version_prop:s0
+lmodroid.updater.allow_major_update    u:object_r:lmo_updater_prop:s0

@@ -1,1 +1,3 @@
 system_restricted_prop(system_exported_cleartext_prop);
+system_internal_prop(lmo_version_prop)
+system_internal_prop(lmo_updater_prop)

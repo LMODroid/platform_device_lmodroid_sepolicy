@@ -1,0 +1,2 @@
+# Custom version
+get_prop(recovery, lmo_version_prop)
