@@ -1,2 +1,4 @@
 # Allow storage access to files app
 allow platform_app mnt_pass_through_file:dir { getattr search };
+# Allow ExternalStorageProvider to access data of user 0 when parallel space is created
+allow platform_app media_userdir_file:dir getattr;
